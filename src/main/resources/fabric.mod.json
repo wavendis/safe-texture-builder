@@ -1,0 +1,17 @@
+{
+	"schemaVersion": 1,
+	"id": "tbsafe",
+	"version": "${version}",
+	"name": "Texture Builder (Safe)",
+	"description": "Randomly switches between hotbar block slots after each placement, one switch per tick.",
+	"authors": ["wavendis"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": { "client": ["tb.TextureBuilder"] },
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
